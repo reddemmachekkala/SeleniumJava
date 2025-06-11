@@ -48,7 +48,7 @@ public class DataDriverReadStore {
 		// Validate logout, if available assign pass to str, else assign fail to str
 		try {
 			driver.findElement(By.linkText("Log out")).click();
-			str = "PASS";
+			str = "Success";
 		//	System.out.println(str);
 			
 		} catch (Exception e) {
