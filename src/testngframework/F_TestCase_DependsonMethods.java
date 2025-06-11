@@ -18,7 +18,7 @@ public class F_TestCase_DependsonMethods {
   }
 	  @Test
 		public void method2() {
-			driver.get("https://www.techlearn.in/admin");
+			driver.get("https://www.techlearn.in/wp-admin");
 		}
 
 		@BeforeTest
