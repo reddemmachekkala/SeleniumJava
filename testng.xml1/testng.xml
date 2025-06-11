@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngframework.B_TestNG_Testcase_Run_From_XML_File"/>
+      <methods>
+				<include name="selenium"></include>
+				<include name="redmine"></include>
+				<include name="twitter"></include>
+			</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
