@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeTest;
 public class DataDrivenProgram {
 	WebDriver driver;
   @Test
-  public void SeleniumlearnLogin() throws IOException, JXLException, Exception {
+  public void SeleniumlearnLogin() throws IOException, Exception {
 		
 		driver.get("https://www.techlearn.in/admin");
 		Thread.sleep(3000);

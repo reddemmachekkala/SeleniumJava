@@ -51,8 +51,8 @@ public class RCDCDDMOKF {
 		driver.get("https://www.techlearn.in/admin");
 		Thread.sleep(2000);
 		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ENTER).build().perform();
-	//	act.sendkeys(keys.TAB).buld().perdorm();
+		act.sendKeys(keys.ENTER).build().perform();
+	//	act.sendkeys(keys.TAB).buld().perform();
   @BeforeTest
   public void beforeTest() {
 	  driver=new ChromeDriver();
