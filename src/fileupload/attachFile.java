@@ -11,8 +11,8 @@ public class attachFile {
   @Test
   public void fileadding() throws InterruptedException {
 	driver.get("https://www.w3schools.com/howto/howto_html_file_upload_button.asp");
-	Thread.sleep(2000);
-	driver.findElement(By.xpath("//input[@id='myFile']")).sendKeys("D:\\Arijit\\TestNG.png");		
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//input[@id='myFile']")).sendKeys("D:\\Geethika\\DemoTest.png");		
   }
 
   @BeforeTest
