@@ -14,7 +14,7 @@ public class dropDownFeature {
 	  driver.get("https://www.redmine.org");
 	  driver.findElement(By.xpath("//a[@class='register']")).click();
 	  driver.findElement(By.xpath("//input[@id='user_mail']")).sendKeys("techlearn.india@gmail.com");
-		Thread.sleep(2000);
+		Thread.sleep(55000);
 		Select lan = new Select(driver.findElement(By.xpath("//*[@id=\"user_language\"]")));
   }
   @BeforeTest
